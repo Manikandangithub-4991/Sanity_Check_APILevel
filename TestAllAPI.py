@@ -5,7 +5,7 @@ from ConfigManager import ConfigManager
 from client.RestClient import RestClient
 
 
-class TestALLAPI(unittest.TestCase):
+class TestAllAPI(unittest.TestCase):
     restClient = RestClient()
     sop_url = ConfigManager.sop_predict_url
     classifier_url = ConfigManager.classifier_url
