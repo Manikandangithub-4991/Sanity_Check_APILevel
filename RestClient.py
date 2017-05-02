@@ -28,7 +28,7 @@ class RestClient(object):
 	print "INPUT DATA                   :",json.dumps(data)
         response = requests.post(url, data=data, headers=self.__headers_, verify=False)
         data = response.json(strict=False)
-        print "RESPONSE FROM THE CHATBOT    :", data['text']
+        print "RESPONSE FROM THE CHATBOT    :", data
         print "*****************************************************"
         return data
 
