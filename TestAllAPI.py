@@ -2,7 +2,7 @@ import json
 import unittest
 
 from ConfigManager import ConfigManager
-from client.RestClient import RestClient
+from RestClient import RestClient
 
 
 class TestAllAPI(unittest.TestCase):
